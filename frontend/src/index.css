@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .customshadow {
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 5px 5px 36px #dbdbdb, -5px -5px 36px #ffffff;
+  }
+}
